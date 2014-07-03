@@ -1,0 +1,12 @@
+{
+    "name": "michaelz/tutorial",
+    "description": "cakephp 1.3 tutorial",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Michael Zhuang",
+            "email": "zhuangdeyouxiang@gmail.com"
+        }
+    ],
+    "require": {}
+}

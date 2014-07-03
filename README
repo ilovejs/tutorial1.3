@@ -1,0 +1,9 @@
+Adapt from: http://book.cakephp.org/1.3/en/The-Manual/Tutorials-Examples/Blog.html
+Steps:
+1. Setup database
+
+Notes:
+
+Database traps:
+1. cake1.3tut does not work, since . in the middle
+2.
