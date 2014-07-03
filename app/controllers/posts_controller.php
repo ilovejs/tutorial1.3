@@ -30,7 +30,9 @@ class PostsController extends AppController {
 	}
 	
 	function edit($id = null) {
+        //TODO: read Model chapter
 	    $this->Post->id = $id;
+        //nothing submitted, then finds the post and Hands it to View
 	    if (empty($this->data)) {
 	        $this->data = $this->Post->read();
 	    } else {

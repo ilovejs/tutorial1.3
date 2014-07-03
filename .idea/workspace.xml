@@ -25,62 +25,7 @@
     <favorites_list name="tutorial" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="posts_controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="1122">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.ctp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/delete.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="8" selection-start="841" selection-end="841" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="880">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake/libs/controller/components/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="6" selection-start="1028" selection-end="1028" vertical-scroll-proportion="17.903225" vertical-offset="907" max-vertical-offset="6248">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="99" selection-start="988" selection-end="988" vertical-scroll-proportion="-21.290323" vertical-offset="0" max-vertical-offset="814">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="60" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.6296296" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -96,9 +41,9 @@
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/sqlFiles/init.sql" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/app/views/posts/delete.ctp" />
         <option value="$PROJECT_DIR$/app/views/posts/index.ctp" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.php" />
-        <option value="$PROJECT_DIR$/app/views/posts/delete.ctp" />
       </list>
     </option>
   </component>
@@ -107,10 +52,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="54" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -152,7 +97,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,35 +161,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -309,16 +232,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3660619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14589989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15253304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -326,11 +248,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -352,16 +275,75 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="918">
+        <state line="10" column="31" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1144">
+          <folding>
+            <element signature="n#index#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#view#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#PostsController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/libs/view/helpers/html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="67" selection-start="10908" selection-end="10908" vertical-scroll-proportion="0.0" vertical-offset="6606" max-vertical-offset="18502">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/libs/view/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="34" selection-start="8074" selection-end="8085" vertical-scroll-proportion="0.0" vertical-offset="7370" max-vertical-offset="19778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/tests/cases/libs/view/helpers/html.test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="4356" max-vertical-offset="29612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="69" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="60" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="918">
+          <folding>
+            <element signature="n#index#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#view#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#PostsController#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="702">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="702" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
@@ -380,9 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872">
-          <folding />
-        </state>
+        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.php">
@@ -395,15 +375,19 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="n#index#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#view#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#PostsController#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="702">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="702" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
@@ -422,9 +406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872">
-          <folding />
-        </state>
+        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.php">
@@ -437,7 +419,13 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="25" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="n#index#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#view#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#PostsController#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,9 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872">
-          <folding />
-        </state>
+        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.php">
@@ -504,23 +490,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="-18.074074" vertical-offset="646" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.6296296" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="82" column="31" selection-start="2927" selection-end="2927" vertical-scroll-proportion="-18.074074" vertical-offset="646" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="186" selection-end="186" vertical-scroll-proportion="0.15806806" vertical-offset="0" max-vertical-offset="911">
-          <folding />
-        </state>
+        <state line="8" column="2" selection-start="186" selection-end="186" vertical-scroll-proportion="0.15806806" vertical-offset="0" max-vertical-offset="911" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/app_controller.php">
@@ -530,38 +505,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="60" selection-start="531" selection-end="531" vertical-scroll-proportion="0.34218916" vertical-offset="0" max-vertical-offset="941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cake/libs/controller/components/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="1028" selection-end="1028" vertical-scroll-proportion="17.903225" vertical-offset="907" max-vertical-offset="6248">
+        <state line="33" column="6" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-0.6306818" vertical-offset="907" max-vertical-offset="6248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="0.05060506" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1061" column="31" selection-start="33919" selection-end="33919" vertical-scroll-proportion="0.7096774" vertical-offset="23364" max-vertical-offset="24244">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="99" selection-start="988" selection-end="988" vertical-scroll-proportion="-21.290323" vertical-offset="0" max-vertical-offset="814">
+        <state line="15" column="69" selection-start="348" selection-end="348" vertical-scroll-proportion="0.37953794" vertical-offset="0" max-vertical-offset="909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqlFiles/init.sql">
+    <entry file="file://$PROJECT_DIR$/cake/tests/cases/libs/view/helpers/html.test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="60" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="25" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="-3.516741" vertical-offset="3726" max-vertical-offset="30958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/libs/view/helpers/html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="400" column="2" selection-start="13625" selection-end="13625" vertical-scroll-proportion="0.80803573" vertical-offset="8085" max-vertical-offset="18952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/libs/view/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="505" column="18" selection-start="13152" selection-end="13152" vertical-scroll-proportion="1.9296875" vertical-offset="9449" max-vertical-offset="20677">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/delete.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="841" selection-end="841" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="880">
-          <folding />
+        <state line="10" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="0.20242023" vertical-offset="0" max-vertical-offset="909">
+          <folding>
+            <element signature="n#index#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#view#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#add#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#PostsController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#PostsController#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
