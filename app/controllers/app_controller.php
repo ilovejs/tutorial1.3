@@ -8,5 +8,6 @@
 class AppController extends Controller{
     var $components = array('DebugKit.Toolbar');
 
-
+    //each time AppController get called first.
+    //put a global filter here is awesome.
 }

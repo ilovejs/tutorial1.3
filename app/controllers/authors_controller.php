@@ -14,10 +14,8 @@ class AuthorsController extends AppController {
         if(!empty($this->data)){
             //what is in $this->data
             if($this->Author->save($this->data)){
-                $this->Session->setFlash('Register Done');
 
-//                debug($this->data);
-//                exit;
+                $this->Session->setFlash('Register Done');
 
                 //store username in session
                 $this->Session->write('authorid', $this->Author->id);
