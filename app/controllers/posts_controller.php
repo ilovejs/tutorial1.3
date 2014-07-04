@@ -1,9 +1,15 @@
 <?php
 class PostsController extends AppController {
-	var $components = array('Session');
+    var $name = 'Posts';
+    var $components = array('Session');
 	var $helpers = array('Html','Form');
-	var $name = 'Posts';
-	
+
+//    public function beforeFilter() {
+//        if(!$this->Session->exist('User')) {
+//            $this->redirect('http://gogoel.com')
+//        }
+//    }
+
 	function index(){
 		$this->set('posts',$this->Post->find('all'));
 	}

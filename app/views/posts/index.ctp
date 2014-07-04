@@ -1,6 +1,5 @@
 <h1>Blog posts</h1>
 
-
 <table>
     <tr>
         <th>Id</th>
@@ -14,7 +13,7 @@
     <?php foreach ($posts as $post): ?>
     <tr>
         <td><?php echo $post['Post']['id']; ?></td> <!-- $post ?? -->
-        <td>
+        <td> <!--$post is just name of var, not http related words-->
             <?php echo $this->Html->link($post['Post']['title'], 
             							 array('controller' => 'posts', 'action' => 'view', $post['Post']['id'])); ?>
         </td>
@@ -29,3 +28,4 @@
 </table>
 
 <?php echo $this->Html->link('Add New Post', array('controller' => 'posts', 'action' => 'add')); ?>
+
