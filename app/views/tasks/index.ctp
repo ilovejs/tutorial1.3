@@ -15,15 +15,17 @@
                     <?php echo $task['Task']['body']?> |
                     <?php echo $this->Time->niceShort($task['Task']['createdDate']) ?> |
                     <?php echo $this->Time->niceShort($task['Task']['finishDate']) ?> |
-                    by user: <?php echo $task['Task']['author_id']?>
+                    <?php echo $this->Html->link('Edit',array('action'=> 'edit', $task['Task']['id'])) ?> |
+                    <?php echo $this->Html->link('Del',array('action'=> 'delete', $task['Task']['id']), null, 'Are you sure?') ?>
+                    <!--by user: <?php //echo $task['Task']['author_id']?>-->
                 </li>
             <?php endforeach; ?>
         </ul>
     </section>
 
     <footer id="footer">
-        Username: <?php echo $username; ?> <br>
-        UserId: <?php echo $userid; ?> <br>
+<!--        Username: --><?php //echo $username; ?><!-- <br>-->
+<!--        UserId: --><?php //echo $userid; ?><!-- <br>-->
         <?php echo $this->Html->link('Create a task:', array('action' => 'add')); ?>
     </footer>
 </section>

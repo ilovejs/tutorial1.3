@@ -40,9 +40,11 @@ class TasksController extends AppController{
 
     function edit($id = null){
         $this->Task->id = $id;
+        //get
         if (empty($this->data)) {
-            $this->data = $this->Post->read();
+            $this->data = $this->Task->read();
         } else {
+            //post
             if($this->Task->save($this->data)){
                 $this->Session->setFlash('Your task has been updated.');
                 $this->redirect(array('action' => 'index'));
@@ -50,8 +52,11 @@ class TasksController extends AppController{
         }
     }
 
-    function delete(){
-
+    function delete($id){
+        if ($this->Task->delete($id)) {
+            $this->Session->setFlash('The task with id: ' . $id . ' has been deleted.');
+            $this->redirect(array('action' => 'index'));
+        }
     }
 
     function addTag(){
