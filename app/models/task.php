@@ -23,10 +23,13 @@ class Task extends AppModel{
         if(!empty($this->data['Task']['body']))
         {
             $this->data['Task']['createDate'] = date('d-m-Y', strtotime('now'));
-//            $this->data['Task']['finishDate'] = date('d-m-Y', strtotime('now'));
 
             App::import('Model','CakeSession');
-            //http://stackoverflow.com/questions/4620103/proper-way-to-inject-session-data-before-model-save-validate-in-cakephp-1-3
+            $session = new CakeSession();
+            $user = $session->read('username');
+            debug($user);
+            exit;
+
             $this->data['Task']['author_id'] = $this->Session->read('authorid');
             return true;
         }

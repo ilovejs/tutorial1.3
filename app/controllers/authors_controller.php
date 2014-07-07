@@ -15,12 +15,7 @@ class AuthorsController extends AppController {
             //what is in $this->data
             if($this->Author->save($this->data)){
 
-                $this->Session->setFlash('Register Done');
 
-                //store username in session
-                $this->Session->write('authorid', $this->Author->id);
-                //TODO: $this->Author->username possible ?
-                $this->Session->write('username', $this->data['Author']['username']);
 
                 $this->redirect(array('controller' => 'tasks',
                                       'action' => 'index'));

@@ -11,7 +11,7 @@
  */
 class TasksController extends AppController{
     var $name = "Tasks";
-    var $components = array('Session');
+    var $components = array('Auth','Session');
 
     //check login or not
     function index(){

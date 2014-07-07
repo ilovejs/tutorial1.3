@@ -11,6 +11,10 @@
     ?>
 </head>
 <body>
+<?php
+    echo $this->Session->flash();
+    echo $this->Session->flash('auth');
+?>
 
 <?php echo $content_for_layout ?>
 
