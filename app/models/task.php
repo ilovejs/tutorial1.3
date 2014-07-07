@@ -22,15 +22,12 @@ class Task extends AppModel{
         //user input something
         if(!empty($this->data['Task']['body']))
         {
-            $this->data['Task']['createDate'] = date('d-m-Y', strtotime('now'));
-
             App::import('Model','CakeSession');
             $session = new CakeSession();
-            $user = $session->read('username');
-            debug($user);
-            exit;
+            $userid = $session->read('userid');
 
-            $this->data['Task']['author_id'] = $this->Session->read('authorid');
+            $this->data['Task']['author_id'] = $userid;
+            $this->data['Task']['createdDate'] = date('Y-m-d', strtotime('now'));
             return true;
         }
     }

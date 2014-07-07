@@ -12,15 +12,18 @@
 class TasksController extends AppController{
     var $name = "Tasks";
     var $components = array('Auth','Session');
+    var $helpers = array('Time');
 
     //check login or not
     function index(){
-        //fetch db
-        $this->set('tasks', $this->Task->find('all'));
+        //read session
+        $userid = $this->Session->read('userid');
         $username = $this->Session->read('username');
-        $authorid = $this->Session->read('authorid');
+
+        $this->set('tasks', $this->Task->findAllByAuthorId($userid));
+
         //set in the view
-        $this->set(compact('username', 'authorid'));
+        $this->set(compact('username', 'userid'));
     }
 
     function add(){
@@ -35,8 +38,16 @@ class TasksController extends AppController{
         }
     }
 
-    function edit(){
-
+    function edit($id = null){
+        $this->Task->id = $id;
+        if (empty($this->data)) {
+            $this->data = $this->Post->read();
+        } else {
+            if($this->Task->save($this->data)){
+                $this->Session->setFlash('Your task has been updated.');
+                $this->redirect(array('action' => 'index'));
+            }
+        }
     }
 
     function delete(){
