@@ -18,6 +18,17 @@
 
 <?php echo $content_for_layout ?>
 
+<?php
+    $loginName = $this->Session->read('Auth.User');
+    if($loginName){
+        echo 'Profile:'. $loginName['username'];
+    } else {
+        echo 'Please Login in';
+    }
+
+    echo $this->Html->link('Logout',array('controller'=>'users', 'action'=>'logout'))
+?>
+
 <footer id="info">
     <p>Double-click to edit a todo</p>
     <p>Written by <a href="https://github.com/ilovejs">Michael Zhuang</a></p>

@@ -13,9 +13,9 @@
             <?php foreach($tasks as $task): ?>
                 <li>
                     <?php echo $task['Task']['body']?> |
-                    <?php echo $this->Time->nice($task['Task']['createdDate']) ?> |
-                    <?php echo $this->Time->nice($task['Task']['finishDate']) ?> |
-                    <?php echo $task['Task']['author_id']?>
+                    <?php echo $this->Time->niceShort($task['Task']['createdDate']) ?> |
+                    <?php echo $this->Time->niceShort($task['Task']['finishDate']) ?> |
+                    by user: <?php echo $task['Task']['author_id']?>
                 </li>
             <?php endforeach; ?>
         </ul>
