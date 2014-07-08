@@ -2,7 +2,7 @@
 
 class UsersController extends AppController {
     var $name = 'Users';
-    var $components = array('Auth','Session');
+    var $components = array('Auth','Session','RequestHandler');
     var $helpers = array('Html');
 
     function beforeFilter(){
@@ -42,9 +42,25 @@ class UsersController extends AppController {
     //login view has been created
     function login(){
 
+        //store username in session
+//        if($this->Session->read('Auth.User')){
+//            debug($this->Auth->user());
+//            exit;
+//
+//        }
+
+//        if($this->Auth->login()){
+//            $this->Session->write('userid', $this->Auth->user('id'));
+//            $this->Session->write('username', $this->Auth->user('username'));
+//
+//
+//            $this->redirect($this->Auth->redirect());
+//        }
     }
 
     function logout(){
+        $this->Session->delete('userid');
+        $this->Session->delete('username');
         $this->redirect($this->Auth->logout());
     }
 }

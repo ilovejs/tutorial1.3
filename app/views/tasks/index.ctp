@@ -26,6 +26,7 @@
     <footer id="footer">
 <!--        Username: --><?php //echo $username; ?><!-- <br>-->
 <!--        UserId: --><?php //echo $userid; ?><!-- <br>-->
+
         <?php echo $this->Html->link('Create a task:', array('action' => 'add')); ?>
     </footer>
 </section>

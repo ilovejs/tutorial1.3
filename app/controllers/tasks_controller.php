@@ -14,6 +14,11 @@ class TasksController extends AppController{
     var $components = array('Auth','Session');
     var $helpers = array('Time');
 
+    function beforeFilter(){
+        $this->Session->write('userid', $this->Auth->user('id'));
+        $this->Session->write('username', $this->Auth->user('username'));
+    }
+
     //check login or not
     function index(){
         //read session
