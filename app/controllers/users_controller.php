@@ -41,21 +41,7 @@ class UsersController extends AppController {
 
     //login view has been created
     function login(){
-
         //store username in session
-//        if($this->Session->read('Auth.User')){
-//            debug($this->Auth->user());
-//            exit;
-//
-//        }
-
-//        if($this->Auth->login()){
-//            $this->Session->write('userid', $this->Auth->user('id'));
-//            $this->Session->write('username', $this->Auth->user('username'));
-//
-//
-//            $this->redirect($this->Auth->redirect());
-//        }
     }
 
     function logout(){

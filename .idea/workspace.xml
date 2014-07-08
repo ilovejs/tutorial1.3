@@ -25,26 +25,7 @@
     <favorites_list name="tutorial" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tag.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.25358325" vertical-offset="0" max-vertical-offset="907">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-4.3125" vertical-offset="0" max-vertical-offset="506">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -82,10 +63,10 @@
         <option value="$PROJECT_DIR$/app/config/routes.php" />
         <option value="$PROJECT_DIR$/app/views/tasks/edit.ctp" />
         <option value="$PROJECT_DIR$/app/models/post.php" />
-        <option value="$PROJECT_DIR$/app/models/tag.php" />
         <option value="$PROJECT_DIR$/app/views/tasks/index.ctp" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.php" />
         <option value="$PROJECT_DIR$/app/controllers/tasks_controller.php" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.php" />
+        <option value="$PROJECT_DIR$/app/models/tag.php" />
       </list>
     </option>
   </component>
@@ -431,7 +412,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68665975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,7 +420,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14757709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16079295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -737,20 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-4.3125" vertical-offset="0" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="79" selection-start="1475" selection-end="1612" vertical-scroll-proportion="0.5435502" vertical-offset="726" max-vertical-offset="1633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.71003306" vertical-offset="0" max-vertical-offset="907">
@@ -758,9 +725,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.7056229" vertical-offset="395" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="103" selection-end="103" vertical-scroll-proportion="0.12679163" vertical-offset="0" max-vertical-offset="907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.25358325" vertical-offset="0" max-vertical-offset="907">
+        <state line="10" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.25358325" vertical-offset="0" max-vertical-offset="907">
           <folding />
         </state>
       </provider>

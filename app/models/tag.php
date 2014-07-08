@@ -8,4 +8,5 @@ class Tag extends AppModel {
     /**
      * CakePHP will assume that the joinTable is named posts_tags.
      */
+
 }
